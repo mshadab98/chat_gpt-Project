@@ -5,6 +5,6 @@ const connectDb = require("./src/db/db")
 
 connectDb();
 
-app.listen(3000, () => {
-    console.log("server is running on port 3000")
+app.listen(5050, () => {
+    console.log("server is running on port 5050")
 })
