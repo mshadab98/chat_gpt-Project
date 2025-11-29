@@ -14,6 +14,6 @@ app.use(cookieParser());
 
 // using Routes
 app.use("/api/auth", authRoutes);
-app.use("/api/auth", chatRoutes)
+app.use("/api/chat", chatRoutes)
 
 module.exports = app;
